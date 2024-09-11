@@ -1,12 +1,11 @@
-cmake_minimum_required(VERSION 3.27)
-project(untitled)
+cmake_minimum_required(VERSION 3.26)
+project(assignment1)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(untitled main.cpp
-)
-add_executable(problem7 problem7.cpp)
-add_executable(problem8 problem8.cpp)
-add_executable(problem9 problem9.cpp)
-add_executable(problem10 problem10.cpp)
-add_executable(problem11 problem11.cpp)
+add_executable(assignment1 main.cpp)
+add_executable(problem1 problem1.cpp)
+add_executable(problem2 problem2.cpp)
+add_executable(problem3 problem3.cpp)
+add_executable(problem4 problem4.cpp)
+add_executable(problem5 problem5.cpp)
